@@ -1,7 +1,7 @@
 /* BREAK POINT */
 
 /* PC */
-@media (min-width: 1024px) {
+@media (min-width: 64em /*1024px*/) {
     .pc {
         display: block;
     }
@@ -9,7 +9,8 @@
 }
  
 /* Tablet */
-@media (max-width: 1023px) and (min-width: 740px){
+
+@media (max-width: 63.9375em/*1023px*/) and (min-width: 46.25em /* 740px */){
     .btn {
         padding: 15px 16px;
     }
@@ -51,7 +52,7 @@
 
 
 /* Mobile */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em /*739px*/) {
     .s-full-width,
     .s-col-full {
         width: 100% !important;

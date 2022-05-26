@@ -219,6 +219,7 @@ html {
     left: 0;
     right: 0;
     text-align:center;
+
 }
 
 #slider .text-heading {
@@ -233,6 +234,7 @@ html {
     color: #fff;
     font-weight: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 }
 
 #content {
